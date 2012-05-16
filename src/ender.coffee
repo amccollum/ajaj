@@ -1,6 +1,6 @@
 (($) ->
     $.ender
-        ajaj: (options={}) ->
+        ajaj: (options) ->
             options.method or= 'GET'
             options.type = 'json'
             options.headers or= {}
